@@ -1,5 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-  }
-  
+}
+
+p {
+    color: blue;
+}
+
+#main-title {
+    font-size: 2em;
+}
+
+.content {
+    padding: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
